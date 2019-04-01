@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 
+// JS 방식 스타일 적용
 const customStyles = {
   content: {
     top: "50%",
@@ -46,14 +47,14 @@ class LoginModal extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.openModal} className="Login-btn">
+        <a onClick={this.openModal} className="Login-btn">
           LOGIN
-        </button>
+        </a>
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
-          style={customStyles}
+          style={customStyles} // 인라인 스타일 주는 방식
           contentLabel="Example Modal"
         >
           <h2 ref={subtitle => (this.subtitle = subtitle)}>로그인</h2>

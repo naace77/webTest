@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <header className="App-header">
+      <header className="App-Footer">
         <p>이쪽이 풋터 부분</p>
       </header>
     );

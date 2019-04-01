@@ -23,23 +23,6 @@ assets/mainPage/Index.css : 뷰 페이지에 입힐 css 파일 생성
 
 LoginModal.jsx
 
-<form style={customStyles.loginForm}>
-    <input />
-    <input />
-    <button onClick={this.closeModal}>LOGIN</button>
-</form>
-  
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)"
-  },
-  loginForm: {
-    display: "flex",
-    flexDirection: "column"
-  }
-};
+### MOBILE CSS 컨트롤
+
+`@media screen and (max-width: 760px) { .header-mobile { display: flex; } .header-web { display: none; } }`

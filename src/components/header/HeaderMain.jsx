@@ -6,20 +6,30 @@ class HeaderMain extends Component {
     return (
       <header className="App-header">
         {/* <p>이쪽이 헤더 부분</p> */}
-        <nav>
-          <ul className="header-ul">
-            <li>
-              <a href="/">HOME</a>
-            </li>
-            <li>
-              <a href="/about/">About</a>
-            </li>
-            <li>
-              <a href="/users/">Users</a>
-            </li>
-          </ul>
-        </nav>
-        <LoginModal />
+        <div className="header-web">
+          <nav>
+            <ul className="header-ul">
+              <li>
+                <a href="/">상품 소개</a>
+              </li>
+              <li>
+                <a href="/about/">요금안내</a>
+              </li>
+              <li>
+                <a href="/users/">간편 급여 계산기</a>
+              </li>
+              <li>
+                <a href="/users/">고객 지원</a>
+              </li>
+              <li>
+                <LoginModal />
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div className="header-mobile">
+          <p>모바일 메뉴</p>
+        </div>
       </header>
     );
   }
