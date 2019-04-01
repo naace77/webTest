@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header-ul {
+  list-style: none;
+  cursor: curser;
+}
+.header-ul li {
+  padding: 20px;
+  border: 0;
+  float: left;
+}
+.header-ul a {
+  text-decoration: none;
+}
+.header-ul a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-ul a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.header-ul a:active {
+  text-decoration: none;
+  color: #fff;
+}
+.header-ul a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
