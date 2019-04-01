@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "assets/mainPage/Index.css";
+import "assets/views/mainPage/Index.css";
 class Index extends Component {
   render() {
     return (

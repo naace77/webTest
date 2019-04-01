@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
+import "assets/components/header/HeaderMain.css";
+import LoginModal from "components/modal/LoginModal";
 class HeaderMain extends Component {
   render() {
-    const { children } = this.props;
     return (
       <header className="App-header">
         {/* <p>이쪽이 헤더 부분</p> */}
@@ -19,6 +19,7 @@ class HeaderMain extends Component {
             </li>
           </ul>
         </nav>
+        <LoginModal />
       </header>
     );
   }
