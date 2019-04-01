@@ -25,4 +25,13 @@ LoginModal.jsx
 
 ### MOBILE CSS 컨트롤
 
-`@media screen and (max-width: 760px) { .header-mobile { display: flex; } .header-web { display: none; } }`
+```css
+@media screen and (max-width: 760px) {
+  .header-mobile {
+    display: flex;
+  }
+  .header-web {
+    display: none;
+  }
+}
+```
