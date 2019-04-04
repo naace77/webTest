@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import "assets/views/mainPage/Index.css";
-import MainBanner from "components/banner/Main_banner";
-const image01 = require("assets/img01.PNG");
+import "assets/views/productPage/product.css";
 
-class Index extends Component {
+class Product extends Component {
   constructor(props) {
     super(props);
     this.state = { width: 0, height: 0 };
@@ -12,6 +10,9 @@ class Index extends Component {
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener("resize", this.updateWindowDimensions);
+    document.querySelector("header").classList.add("font-dark");
+    document.querySelector(".header-ul").classList.add("header-ul-dark");
+    document.querySelector(".header-ul").classList.remove("header-ul");
   }
   componentWillUnmount() {
     window.removeEventListener("resize", this.updateWindowDimensions);
@@ -22,17 +23,14 @@ class Index extends Component {
   render() {
     return (
       <div
-        className="Index-body"
+        className="Product-body"
         style={{
           width: this.state.width,
           height: this.state.height
         }}
-      >
-        <MainBanner />
-        {/* <PDFViewer backend={PDFJSBackend} src="./123444.pdf" /> */}
-      </div>
+      />
     );
   }
 }
 
-export default Index;
+export default Product;

@@ -23,7 +23,7 @@ assets/mainPage/Index.css : 뷰 페이지에 입힐 css 파일 생성
 
 LoginModal.jsx
 
-### `MOBILE CSS 컨트롤`
+### `MOBILE CSS`
 
 ```css
 @media screen and (max-width: 760px) {
@@ -36,7 +36,7 @@ LoginModal.jsx
 }
 ```
 
-### `WINDOW SIZE 컨트롤`
+### `WINDOW SIZE`
 
 ```javascript
   constructor(props) {
@@ -54,4 +54,12 @@ LoginModal.jsx
   updateWindowDimensions = () => {
     this.setState({ width: window.innerWidth, height: window.innerWidth / 2 });
   };
+```
+
+### `CLASS add / remove`
+
+```javascript
+document.querySelector("header").classList.add("font-dark");
+document.querySelector(".header-ul").classList.add("header-ul-dark");
+document.querySelector(".header-ul").classList.remove("header-ul");
 ```

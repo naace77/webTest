@@ -9,10 +9,10 @@
 }
 .header-ul a {
   text-decoration: none;
+  font-size: 1em;
 }
 .header-ul a:link {
   text-decoration: none;
-  color: #fff;
 }
 
 .header-ul a:visited {
@@ -21,25 +21,50 @@
 }
 .header-ul a:active {
   text-decoration: none;
-  color: #fff;
 }
 .header-ul a:hover {
   text: none;
-  color: #fff;
+}
+
+.header-ul-dark {
+  list-style: none;
+  cursor: curser;
+}
+.header-ul-dark li {
+  padding: 20px;
+  border: 0;
+  float: left;
+}
+.header-ul-dark a {
+  text-decoration: none;
+  font-size: 1em;
+}
+.header-ul-dark a:link {
+  text-decoration: none;
+}
+
+.header-ul-dark a:visited {
+  text-decoration: none;
+  color: #000;
+}
+.header-ul-dark a:active {
+  text-decoration: none;
+}
+.header-ul-dark a:hover {
+  text: none;
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   display: flex;
   /* flex-direction: column; */
   align-items: center;
   justify-content: flex-end;
-  font-size: calc(5px + 2vmin);
+  /* font-size: calc(5px + 2vmin); */
   color: white;
   position: fixed;
   width: 100%;
-  height: 160px;
-  z-index: 1000;
+  z-index: 2;
   top: 0;
 }
 .Login-btn {
@@ -55,4 +80,7 @@
   .header-web {
     display: none;
   }
+}
+.font-dark {
+  color: #000;
 }

@@ -3,11 +3,8 @@ import "assets/views/mainPage/Main.css";
 import HeaderMain from "components/header/HeaderMain";
 import Footer from "components/footer/Footer";
 import Index from "views/mainPage/Index";
+import Product from "views/productPage/Product";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-function About() {
-  return <h2>About</h2>;
-}
 
 function Users() {
   return <h2>Users</h2>;
@@ -18,10 +15,9 @@ class Main extends Component {
       <div className="App">
         <HeaderMain />
         <Router>
-          <div style={{ display: "bolck" }}>
+          <div>
             <Route path="/" exact component={Index} />
-            <Route path="/about/" component={About} />
-            <Route path="/users/" component={Users} />
+            <Route path="/about/" component={Product} />
           </div>
         </Router>
         <Footer />
