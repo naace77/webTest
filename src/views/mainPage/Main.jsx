@@ -18,7 +18,7 @@ class Main extends Component {
       <div className="App">
         <HeaderMain />
         <Router>
-          <div>
+          <div style={{ display: "bolck" }}>
             <Route path="/" exact component={Index} />
             <Route path="/about/" component={About} />
             <Route path="/users/" component={Users} />
