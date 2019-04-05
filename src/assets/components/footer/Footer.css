@@ -1,0 +1,45 @@
+.App-Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-title {
+  border-bottom: solid 1px;
+  padding: 2vmin;
+  margin-bottom: 1vmin;
+}
+.footer-title-container {
+  padding: 1vmin;
+  display: flex;
+  flex-direction: column;
+}
+.footer-title-sub {
+  padding: 0.5vmin;
+}
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: solid 0.5px;
+  border-bottom-color: #b1b1b1;
+  padding-bottom: 30px;
+  position: relative;
+}
+.footer-container {
+  /* width: 100%; */
+}
+.footer-top-iconList {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}

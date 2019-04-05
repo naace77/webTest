@@ -1,0 +1,7 @@
+.border-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vmin;
+  justify-content: "center";
+  align-items: "center";
+}

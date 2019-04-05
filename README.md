@@ -36,6 +36,18 @@ LoginModal.jsx
 }
 ```
 
+### `MOBILE CSS`
+
+```javascript
+{
+  this.state.width > 760 ? (
+    <CenterBanner width={this.state.width} height={this.state.height} />
+  ) : (
+    <CenterBannerMobile width={this.state.width} height={this.state.height} />
+  );
+}
+```
+
 ### `WINDOW SIZE`
 
 ```javascript

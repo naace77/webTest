@@ -67,6 +67,7 @@
   z-index: 2;
   top: 0;
 }
+
 .Login-btn {
   cursor: pointer;
 }
@@ -83,4 +84,7 @@
 }
 .font-dark {
   color: #000;
+}
+.header-ul-background {
+  background-color: #000;
 }
